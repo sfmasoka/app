@@ -80,4 +80,4 @@ function broadcastUserList() {
   });
 }
 
-console.log("WebSocket server running on ws://localhost:8081");
+console.log("WebSocket server running on ws://13.49.23.126:8081");

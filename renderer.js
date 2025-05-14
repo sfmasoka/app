@@ -6,7 +6,7 @@ function login() {
   username = document.getElementById("usernameInput").value.trim();
   if (!username) return;
 
-  ws = new WebSocket("ws://127.0.0.1:8081");
+  ws = new WebSocket("ws://13.49.23.126:8081");
 
   ws.onopen = () => {
     ws.send(JSON.stringify({ type: "login", username }));
